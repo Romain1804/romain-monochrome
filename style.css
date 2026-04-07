@@ -1,14 +1,55 @@
-.section-hero{background-image: url(asset/bg-image-hero.png);
-background-size: cover;
-background-repeat: no-repeat;
-height: 100vh;} /* 100% de la hauteur de l'écran*/
-.white{color: white;}
-.section3{background-image: url(asset/bg-image-2.png);
-background-size: cover;
-background-repeat: no-repeat;
-height: 50vh;}
-.black{background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{padding: 0;margin: 0;box-sizing: border-box; font-family: 'rubik', sans-serif;}
+.section-hero {
+    background-image: url(asset/bg-image-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* 100% de la hauteur de l'écran*/
+.white {
     color: white;
-background-repeat:  no-repeat;
-background-size: cover;}
-.end{text-align: center;}
+}
+
+.section3 {
+    background-image: url(asset/bg-image-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.end {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spacebetween {
+    justify-content: space-between;
+}
+
+.gap8 {
+    gap: 8px;
+}
+a{text-decoration: none;}
+.noir{color: black;}
+.aligncenter{align-items: center;}
+.p40 {padding: 40px;}
+/* taille */
+.w40{width: 40%;}
+.justify-center{justify-content: center;}
+.margesec2{margin-top: 20px;}
+.card{border: 4px black solid;width: 30%;}
+.flex{display: flex;flex-wrap: wrap;}
+.margin2{margin-bottom: 20px;}
