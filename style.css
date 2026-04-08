@@ -52,4 +52,19 @@ a{text-decoration: none;}
 .margesec2{margin-top: 20px;}
 .card{border: 4px black solid;width: 30%;}
 .flex{display: flex;flex-wrap: wrap;}
-.margin2{margin-bottom: 20px;}
+.margin2{margin-bottom: 15px;}
+.mt20{margin-top: 20px;}
+.container1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{border: solid; background-color: black;color: white;border-radius: 3px;}
+.spacearound{justify-content: space-around;}
+.btnblanc{border: solid; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);border-radius: 3px;}
+.flexend{align-items: flex-end;}
+.column{flex-direction: column;}
+.bgred{background-color: red;}
+.gap32{gap: 32px;}
+.cardprojet{border: solid black 3px; width: 500px;padding: 4px;width: 30%}
